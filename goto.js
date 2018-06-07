@@ -5,7 +5,7 @@ module.exports = (pluginContext) => {
     return new Promise((resolve, reject) => {
       resolve([
         {
-          icon: 'fa-book',
+          icon: 'fa-safari',
           title: 'Open url',
           subtitle: '"' + urls[search] + '"',
           value: urls[search],
