@@ -1,0 +1,22 @@
+{
+  "name": "zazu-goto",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/tinytacoteam/zazu-fallback.svg?branch=master)](https://travis-ci.org/tinytacoteam/zazu-fallback)",
+  "main": "goto.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaleocheng/zazu-goto.git"
+  },
+  "author": "Kaleo Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaleocheng/zazu-goto/issues"
+  },
+  "homepage": "https://github.com/kaleocheng/zazu-goto#readme"
+}

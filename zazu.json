@@ -1,0 +1,28 @@
+{
+  "name": "goto",
+  "version": "0.0.1",
+  "description": "zazu plugin to go to my custom url",
+  "icon": "icon.png",
+  "blocks": {
+    "input": [
+      {
+        "id": "goto",
+        "prefix": "g",
+        "space": true,
+        "args": "optional",
+        "type": "PrefixScript",
+        "script": "goto.js",
+        "connections": [
+          "open"
+        ]
+      }
+    ],
+    "output": [
+      {
+        "id": "open",
+        "type": "OpenInBrowser",
+        "url": "{value}"
+      }
+    ]
+  }
+}
