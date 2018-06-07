@@ -1,7 +1,7 @@
 const urls = {
-  'gh': 'https://github.com',
-  'ghr': 'https://github.com/kaleocheng?tab=repositories',
-  'ghw': 'https://github.com/orgs/Wiredcraft/dashboard',
+  'h': 'https://github.com',
+  'r': 'https://github.com/kaleocheng?tab=repositories',
+  'w': 'https://github.com/orgs/Wiredcraft/dashboard',
 }
 
 module.exports = urls

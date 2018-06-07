@@ -1,18 +1,16 @@
 const path = require('path')
-const urls = require('./urls').default
-
-
-return (goto, env = {}) => {
-  if (goto in urls){
+const urls = require('./urls')
+module.exports = (pluginContext) => {
+  return (search, env = {}) => {
     return new Promise((resolve, reject) => {
       resolve([
         {
           icon: 'fa-book',
-          title: 'Goto url',
-          subtitle: 'Goto "' + urls[goto] + '"',
-          value: urls[goto],
+          title: 'Open url',
+          subtitle: '"' + urls[search] + '"',
+          value: urls[search],
         },
       ]);
     });
-  }
+  };
 };
