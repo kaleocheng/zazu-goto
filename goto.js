@@ -21,8 +21,7 @@ const grep = (what, where, callback) => {
 
 module.exports = (pluginContext) => {
   return (search, env = {}) => {
-    //const cfg = env.cfgPath || '~/.zazu_goto'
-    const cfg = '/tmp/zazu-goto-index'
+    const cfg = env.cfgPath || '/tmp/zazu-goto-index'
     return new Promise((resolve, reject) => {
       grep(search, cfg, (list) => {
         resolve(list)
